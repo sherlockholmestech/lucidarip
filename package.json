@@ -1,0 +1,22 @@
+{
+  "name": "lucidarip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "c12": "^2.0.1",
+    "flac-tagger": "^1.0.7",
+    "jsmediatags": "^3.9.7",
+    "lucida": "^2.0.0-53"
+  }
+}
