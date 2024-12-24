@@ -13,6 +13,7 @@ if (!url) {
 
 // Check if URL is an album, playlist, or artist
 const urlInfo = await lucidaClient.getByUrl(url);
+
 if (urlInfo.type === "album") {
 	await downloadAlbum(url, lucidaripConfig.music_dir);
 } else if (urlInfo.type === "playlist") {
